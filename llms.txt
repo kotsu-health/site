@@ -1,0 +1,19 @@
+# Kotsu
+
+> A Japanese orthopedic surgeon checks what the research actually says about staying strong, mobile and young — muscles, bones, joints, connective tissue, skin and hair.
+
+Author: John Ishiguro, MD — Board-certified orthopedic surgeon, Tokyo. Every article grades its claims A–D (see /method/). No affiliate links, no sponsored content.
+
+## Articles
+- [Does vitamin D prevent falls in older adults? What the trials found](https://kotsuhealth.com/articles/vitamin-d-falls/): Vitamin D is often recommended to keep older people on their feet. A surgeon reads the meta-analyses of falls trials — and the one trial where a big yearly dose made falls more common.
+- [Do calcium supplements prevent fractures? What the trials found](https://kotsuhealth.com/articles/calcium-fractures/): Calcium pills are taken by millions of older adults to protect their bones. A surgeon reads the large trials and meta-analyses on calcium, vitamin D and broken bones.
+- [Is sitting the new smoking? What the numbers actually show](https://kotsuhealth.com/articles/sitting-new-smoking/): Long sitting is linked to a higher risk of death, but the size of that link is far smaller than smoking's, and enough daily activity appeared to cancel it in a study of over a million people.
+- [Is weight training bad for older joints? What the trials show](https://kotsuhealth.com/articles/strength-training-joints/): Many people over 50 avoid lifting weights to protect their knees. A surgeon reads three large bodies of evidence on strength training, joint pain and safety.
+- [Do you really need 10,000 steps a day? What step-counter studies show](https://kotsuhealth.com/articles/10000-steps/): The benefits of walking rise steeply up to about 7,000 steps a day and then level off, especially after 60. A surgeon explains what two large analyses found.
+- [Does stretching before exercise prevent injuries? Strength training does far more](https://kotsuhealth.com/articles/stretching-injury/): A meta-analysis of 25 trials with 26,610 people found no injury-prevention effect from stretching, while strength training cut sports injuries to less than a third. A surgeon explains.
+- [Does glucosamine rebuild knee cartilage? What the trials actually measured](https://kotsuhealth.com/articles/glucosamine-cartilage/): Glucosamine is sold as a cartilage builder. Large trials that measured the joint space on X-rays found tiny or no differences from placebo. A surgeon explains the numbers.
+- [Biotin for hair: a popular supplement with a hidden lab-test problem](https://kotsuhealth.com/articles/biotin-hair/): Biotin has helped hair only in people with a deficiency or an underlying condition. In everyone else the evidence is missing — and high doses can distort important blood tests.
+- [Collagen supplements for skin and joints: what the best trials say](https://kotsuhealth.com/articles/collagen-skin-joints/): Pooled trials say collagen helps skin, but the independent, high-quality ones don't. For joints, the benefit is short-lived and the evidence weak. A surgeon reads the fine print.
+- [Does cracking your knuckles cause arthritis?](https://kotsuhealth.com/articles/knuckle-cracking/): One of the most repeated warnings in medicine has little evidence behind it. What the studies of habitual knuckle crackers found — and what the 'pop' actually is.
+- [Does running ruin your knees? What 125,000 people tell us](https://kotsuhealth.com/articles/running-knees/): Recreational runners had less hip and knee arthritis than non-runners in a large meta-analysis. Competitive runners had more. A surgeon explains what that does and does not prove.
+- [Grip strength: the vital sign hiding in your hand](https://kotsuhealth.com/articles/grip-strength/): Weaker grip goes with shorter life in huge studies across the world. What that does and does not mean, and what you can actually change.
