@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="p:domain_verify" content="ad8d484834cd56b73d7e46ce7151f853">
+<title>Knee Pain Navigator — how soon should you get it checked? | Kotsu</title>
+<meta name="description" content="A five-question knee pain self-check built on the Ottawa Knee Rules and NICE osteoarthritis guidance, with the next step and the evidence behind it.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://kotsuhealth.com/knee-pain-navigator/">
+<meta property="og:title" content="Knee Pain Navigator — how soon should you get it checked? | Kotsu">
+<meta property="og:description" content="A five-question knee pain self-check built on the Ottawa Knee Rules and NICE osteoarthritis guidance, with the next step and the evidence behind it.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://kotsuhealth.com/knee-pain-navigator/">
+<meta property="og:site_name" content="Kotsu">
+<meta property="og:image" content="https://kotsuhealth.com/assets/og-image.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://kotsuhealth.com/assets/og-image.png">
+<link rel="alternate" type="application/rss+xml" title="Kotsu" href="/feed.xml">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..600;1,6..72,300..500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/site.css">
+</head>
+<body>
+<header class="site-head">
+  <a class="brand" href="/">Kotsu</a>
+  <nav class="site-nav" aria-label="Sections"><a href="/topics/core/">Core</a><a href="/topics/bridge/">Bridge</a><a href="/topics/trend/">Skin &amp; Hair</a><a href="/verdicts/">Claim Checker</a><a href="/method/">Method</a><a class="nav-cta" href="/newsletter/">Newsletter</a></nav>
+</header>
+<main>
+<section class="page-head">
+  <p class="kicker">Self-check</p>
+  <h1>Knee Pain Navigator</h1>
+  <p class="lede">Five quick questions, built only on published rules doctors use. It tells you how soon to get your knee
+  checked and where to start reading. It cannot diagnose you or rule anything out.</p>
+</section>
+<div class="page-prose kn">
+<style>.kn fieldset{border:1px solid var(--line,#ccc);border-radius:10px;padding:1rem 1.1rem;margin:0 0 1rem}
+.kn legend{font-weight:600;padding:0 .3rem}.kn label{display:block;margin:.35rem 0;cursor:pointer}
+.kn button.go{font:inherit;font-weight:600;padding:.75rem 1.4rem;border:0;border-radius:8px;background:var(--ink,#222);color:var(--paper,#fff);cursor:pointer}
+.kn .res{display:none;border-left:6px solid var(--accent,#e07a5f);padding:.9rem 1.1rem;margin:1.2rem 0;background:rgba(0,0,0,.03)}
+.kn .res h2{margin-top:0}.kn .hide{display:none}</style>
+<form id="kn" onsubmit="return false">
+<fieldset><legend>1. Fever, or a knee that is hot, red and swollen?</legend>
+<label><input type="radio" name="hot" value="y"> Yes</label><label><input type="radio" name="hot" value="n" checked> No</label></fieldset>
+<fieldset><legend>2. Did the pain start with an injury (fall, twist, blow) in the last week?</legend>
+<label><input type="radio" name="inj" value="y"> Yes</label><label><input type="radio" name="inj" value="n" checked> No</label>
+<div id="ott" class="hide"><p>Tick any that apply:</p>
+<label><input type="checkbox" name="o" value="age"> I am 55 or older</label>
+<label><input type="checkbox" name="o" value="wb"> I could not take 4 steps on it right after the injury, and still can't</label>
+<label><input type="checkbox" name="o" value="flex"> I can't bend the knee to a right angle (90°)</label>
+<label><input type="checkbox" name="o" value="pat"> Pressing on the kneecap itself is what hurts</label>
+<label><input type="checkbox" name="o" value="fib"> Pressing the bony bump on the outer side just below the knee hurts</label></div></fieldset>
+<fieldset><legend>3. Does the knee lock — get stuck so you can't straighten it?</legend>
+<label><input type="radio" name="lock" value="y"> Yes</label><label><input type="radio" name="lock" value="n" checked> No</label></fieldset>
+<fieldset><legend>4. Pain at night or at rest, or weight loss you can't explain?</legend>
+<label><input type="radio" name="night" value="y"> Yes</label><label><input type="radio" name="night" value="n" checked> No</label></fieldset>
+<fieldset><legend>5. Your knee pain day to day</legend>
+<label><input type="checkbox" name="age45"> I am 45 or older</label>
+<label><input type="checkbox" name="act"> It hurts with activity (walking, stairs, standing)</label>
+<label><input type="checkbox" name="stiff"> Morning stiffness is absent or lasts 30 minutes or less</label></fieldset>
+<button type="button" class="go" id="kn-go">Show my next step</button>
+</form>
+<div class="res" id="kn-res" aria-live="polite"></div>
+<h2>Where these questions come from</h2>
+<ul>
+<li><strong>Question 1</strong> — a hot, swollen joint with fever can be septic arthritis (a joint infection).
+ <a href="https://patient.info/doctor/history-examination/knee-assessment" rel="noopener">Patient.info, Knee assessment</a>.</li>
+<li><strong>Question 2</strong> — the Ottawa Knee Rules. In an acute knee injury, an X-ray is needed if any one of: age 55 or older,
+ tenderness at the head of the fibula, isolated tenderness of the kneecap, inability to flex to 90°, or inability to bear weight
+ both immediately and when examined (four steps). The rule was 100% sensitive for knee fractures in validation (1,096 adults).
+ Stiell IG et al. <em>Ann Emerg Med</em> 1995 (<a href="https://doi.org/10.1016/s0196-0644(95)70106-0" rel="noopener">doi</a>);
+ <em>JAMA</em> 1996 (<a href="https://pubmed.ncbi.nlm.nih.gov/8594242/" rel="noopener">PubMed 8594242</a>).
+ The rule was designed for a doctor's examination — your own answers can only tell you to get checked, not that nothing is broken.</li>
+<li><strong>Question 3–4</strong> — locking suggests a loose body or meniscal injury; night or rest pain suggests a bone tumour
+ must be excluded. <a href="https://patient.info/doctor/history-examination/knee-assessment" rel="noopener">Patient.info</a>.</li>
+<li><strong>Question 5</strong> — NICE guideline NG226 (2022), rec. 1.1.1: osteoarthritis is diagnosed clinically, without imaging, in people
+ aged 45 or over with activity-related joint pain and no morning stiffness or stiffness lasting no longer than 30 minutes.
+ Rec. 1.2.2: the core treatments are therapeutic exercise and weight management (if appropriate).
+ <a href="https://www.nice.org.uk/guidance/ng226" rel="noopener">NICE NG226</a>.</li>
+</ul>
+<p class="ev-note">General health information, not medical advice. If you are worried, see a doctor — whatever this page says.</p>
+<script>(function(){var f=document.getElementById('kn'),r=document.getElementById('kn-res'),ott=document.getElementById('ott');
+function v(n){var e=f.querySelector('input[name='+n+']:checked');return e?e.value:''}
+[].forEach.call(f.querySelectorAll('input[name=inj]'),function(e){e.addEventListener('change',function(){ott.className=v('inj')==='y'?'':'hide'})});
+document.getElementById('kn-go').addEventListener('click',function(){var h='',o=f.querySelectorAll('input[name=o]:checked').length;
+if(v('hot')==='y'){h='<h2>Get seen urgently — today.</h2><p>A hot, red, swollen knee or a fever can mean a joint infection (septic arthritis). Go to an urgent care clinic or emergency department now. Do not wait to see if it settles.</p>';}
+else if(v('inj')==='y'&&o>0){h='<h2>Get the knee examined today — you may need an X-ray.</h2><p>You ticked at least one item from the Ottawa Knee Rules, which doctors use to decide when an injured knee needs an X-ray to look for a fracture.</p>';}
+else if(v('lock')==='y'){h='<h2>See a doctor soon — ideally an orthopaedic specialist.</h2><p>A knee that locks can have a loose fragment or a torn meniscus caught in the joint. That is worth an examination rather than waiting it out.</p>';}
+else if(v('night')==='y'){h='<h2>Book a doctor’s appointment soon.</h2><p>Pain at night or at rest, or unexplained weight loss, needs a proper check to exclude rarer causes. Most turn out to be benign, but this should be examined.</p>';}
+else if(v('inj')==='y'){h='<h2>No Ottawa red flag ticked — but get checked if it isn’t improving.</h2><p>Doctors use these rules to decide when an X-ray can be skipped after a knee injury. Your own answers cannot rule out a fracture or a ligament tear: if you cannot walk normally, the knee swells or gives way, or it is not clearly better within a few days, see a doctor.</p><p>Read: <a href="/articles/acl-tear-surgery/">Torn ACL — do you need surgery?</a></p>';}
+else if(f.age45.checked&&f.act.checked&&f.stiff.checked){h='<h2>This matches how guidelines describe knee osteoarthritis.</h2><p>NICE says it can be diagnosed from these features without an X-ray, and that the core treatments are therapeutic exercise and weight management (if appropriate). A doctor should still confirm it.</p><p><strong>What the evidence says:</strong> <a href="/articles/strength-training-joints/">strength training</a> · <a href="/articles/walking-knee-arthritis/">walking</a> · <a href="/articles/weight-loss-knee-arthritis/">weight loss</a> · <a href="/articles/glucosamine-cartilage/">glucosamine</a> · <a href="/articles/gel-injections-knee-arthritis/">gel injections</a> · <a href="/articles/cortisone-shots-knee-arthritis/">cortisone shots</a> · <a href="/articles/knee-arthroscopy-degenerative/">arthroscopy</a>.</p>';}
+else{h='<h2>No pattern to flag here.</h2><p>None of the urgent signs above, and not the typical osteoarthritis picture. If the pain lasts more than a few weeks or keeps you from normal activity, see a doctor or physiotherapist.</p>';}
+h+='<p>Live in Japan or travelling there? <a href="/care-in-japan/">How to get knee care in Japan in English</a>.</p><p class="ev-note">General health information, not medical advice.</p>';
+r.innerHTML=h;r.style.display='block';r.scrollIntoView({behavior:'smooth',block:'start'})});})();</script>
+</div>
+<section class="nl">
+  <div>
+    <p class="kicker">Newsletter</p>
+    <h2>The week&#x27;s verdicts, every Sunday.</h2>
+    <p>Every Sunday: the week's new evidence-graded verdicts and one study worth knowing about. No ads. Unsubscribe anytime. <strong>Free when you join:</strong> a one-page guide to what works for knee pain, graded A to D.</p>
+  </div>
+  <form class="nl-form" action="https://app.kit.com/forms/10059139/subscriptions" method="post">
+    <label class="sr" for="nl-email">Email address</label>
+    <input id="nl-email" type="email" name="email_address" placeholder="you@example.com" autocomplete="email" required>
+    <button type="submit">Subscribe</button>
+  </form>
+</section>
+</main>
+<footer class="site-foot">
+  <div class="foot-grid">
+    <div>
+      <p class="brand">Kotsu</p>
+      <p>The knack of aging well, from a bone surgeon in Japan.</p>
+    </div>
+    <div>
+      <a href="/about/">About the author</a>
+      <a href="/method/">How we grade evidence</a>
+      <a href="https://www.youtube.com/@Kotsu-health" rel="noopener">Daily verdicts on YouTube</a>
+      <a href="/care-in-japan/">Care in Japan</a>
+      <a href="/disclaimer/">Disclaimer &amp; privacy</a>
+      <a href="/feed.xml">RSS</a>
+    </div>
+  </div>
+  <p class="fine">General health information, not medical advice. No affiliate links, no sponsored content. &copy; 2026 John Ishiguro, MD</p>
+</footer>
+</body>
+</html>
